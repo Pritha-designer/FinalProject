@@ -1,0 +1,57 @@
+/* OrderPage.css */
+
+.order-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.order-img {
+  height: 150px;
+  object-fit: contain;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.order-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.order-price {
+  color: #28a745;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.order-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.order-form-control {
+  max-width: 100px;
+  margin-top: 8px;
+}
+
+.order-button {
+display:flex;
+justify-content: center;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.order-button:hover {
+  background-color: #ffffff !important;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
