@@ -1,8 +1,0 @@
-.image-card {
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.image-card:hover {
-  transform: scale(1.05);
-}
