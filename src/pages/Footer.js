@@ -22,10 +22,9 @@ function Footer() {
             <h5>Information</h5>
             <ul className="list-unstyled">
               <li><a href="/about" className="text-white">About</a></li>
-              <li><a href="#" className="text-white">Our History</a></li>
-              <li><a href="#" className="text-white">Delivery Information</a></li>
-              <li><a href="#" className="text-white">Privacy Policy</a></li>
-              <li><a href="#" className="text-white">Terms and Conditions</a></li>
+              <li><a href="/about" className="text-white">Our History</a></li>
+              <li><a href="/about" className="text-white">Privacy Policy</a></li>
+              <li><a href="/about" className="text-white">Terms and Conditions</a></li>
             </ul>
           </Col>
 
