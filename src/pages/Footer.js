@@ -31,11 +31,11 @@ function Footer() {
           <Col md={4} className="mb-4">
             <h5>Extras</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Wishlist</a></li>
-              <li><a href="#" className="text-white">Order Tracking</a></li>
-              <li><a href="#" className="text-white">Payment Receipt</a></li>
-              <li><a href="#" className="text-white">Contact Us</a></li>
-              <li><a href="#" className="text-white">Returns</a></li>
+              <li><a href="/home" className="text-white">Wishlist</a></li>
+              <li><a href="/home" className="text-white">Order Tracking</a></li>
+              <li><a href="/home" className="text-white">Payment Receipt</a></li>
+              <li><a href="/home" className="text-white">Contact Us</a></li>
+              <li><a href="/home" className="text-white">Returns</a></li>
             </ul>
           </Col>
         </Row>
