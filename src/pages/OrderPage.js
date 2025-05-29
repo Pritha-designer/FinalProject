@@ -17,7 +17,7 @@ export default function OrderPage() {
    if (!token) {
      navigate('/login');
    }
- }, []);
+ }, [navigate]);
 // useEffect(() => {
 //   navigate('/login');
 // }, );
